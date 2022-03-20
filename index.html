@@ -5,11 +5,35 @@
 
   <script src="js/form.js"></script>
 <!--Link game.js and player.js-->
-   
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
 
-<!--Add database config here below-->
-  
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+//<!--Add database config here below-->
+const firebaseConfig = {
+
+  apiKey: "AIzaSyDgHdbMP8neuBnEkzkTbeSS0nJYkBvYeRk",
+
+  authDomain: "c-40-f2007.firebaseapp.com",
+
+  databaseURL: "https://c-40-f2007-default-rtdb.firebaseio.com",
+
+  projectId: "c-40-f2007",
+
+  storageBucket: "c-40-f2007.appspot.com",
+
+  messagingSenderId: "332521383056",
+
+  appId: "1:332521383056:web:89b06bed9d6f190e59a415"
+
+};
+
+firebase.initializeApp(firebaseConfig);
+    </script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
 
@@ -20,3 +44,6 @@
 
 
 </body></html>
+
+
+
